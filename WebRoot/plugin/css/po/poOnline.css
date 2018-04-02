@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+/* ==========================================================================
+PO明细框
+========================================================================== */
+.detail_frame{visibility:hidden;position:fixed;z-index:101;top:30px;left:50%;margin-left:-500px;width:1000px;height:398px;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;background-color:white;overflow:hidden;}
+.detail_frame>.title{position:relative;width:100%;height:40px;padding:5px 0;}
+.detail_frame>.title>span{font-family:Microsoft YaHei;font-size:1.5em;font-weight:700;display:inline-block;:box-sizing:border-box;padding:5px 20px}
+.detail_frame .close-detail-frame{font-size:22px;line-height:.5;position:absolute;top:8px;right:11px;color:#aaa;text-shadow:0 -1px 1px rbga(0,0,0,.6);font-weight:bold;cursor:pointer}
+.detail_frame .detail_header{position:relative;width:100%;height:85px;}
+.detail_frame .detail_header .header_container{margin:0 auto;width:710px}
+.detail_frame .header_container>label{font-size:1em;font-weight:bold;padding:10px 10px 5px 0;text-align:right}
+.detail_frame .header_container>label.long{width:100px}
+.detail_frame .header_container>label.mid{width:75px}
+.detail_frame .header_container>label.short{width:50px}
+.detail_frame .header_container>input{height:20px;font-size:1em;margin:7px 10px}
+.detail_frame .header_container>input.long{width:240px}
+.detail_frame .header_container>input.mid{width:225px}
+.detail_frame .header_container>input.short{width:200px}
+.detail_frame .detail_table{position:relative;width:100%;min-height:210px}
+.detail_frame .detail_table>table{border-collapse:collapse;border-spacing:0;width:100%;border-style:solid;border-width:0 1px 1px 1px;border-color:#e6e6e6}
+.detail_frame .detail_table>table>tbody>tr>th{border-style:solid;border-width:1px 0 0 1px;border-color:#e6e6e6;background-color:#f2f2f2;height:40px}
+.detail_frame .detail_table>table>tbody>tr>td{border-style:solid;border-width:1px 0 0 0;border-color:#e6e6e6;color:#7a7a7a;background-color:#f9f9f9;text-align:center;height:30px}	

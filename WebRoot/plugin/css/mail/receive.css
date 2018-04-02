@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+/* ==========================================================================
+详情框
+========================================================================== */
+.detail_frame{visibility:hidden;position:fixed;z-index:101;top:100px;left:50%;margin-left:-340px;width:680px;height:485px;/*border:2px solid black;*/-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;background-color:white;overflow:hidden;}
+.detail_frame>.title{position:relative;width:100%;height:40px;padding:5px 0;}
+.detail_frame>.title>span{font-family:Microsoft YaHei;font-size:1.5em;font-weight:700;display:inline-block;:box-sizing:border-box;padding:5px 20px}
+.detail_frame .close-detail-frame{font-size:22px;line-height:.5;position:absolute;top:8px;right:11px;color:#aaa;text-shadow:0 -1px 1px rbga(0,0,0,.6);font-weight:bold;cursor:pointer}
+.detail_frame>.line{position:relative;width:100%;height:3px;background:black}
+.detail_frame>.content{position:relative;width:680px;height:380px;padding:20px 20px;box-sizing:border-box;}
+.detail_frame .short{width:30%}
+.detail_frame .long{widh:40%}
+.detail_frame label.mail_title{font-size:1em;width:10%;padding:15px 10px 5px 0;text-align:right}
+.detail_frame input.mail_title{height:20px;font-size:1em;width:80%;margin:13px 10px}
+.detail_frame .textarea{width:92%;height:270px;font-size:1em;margin:10px 20px;border:1px solid #CCCCCC;padding:2px;overflow-x:hidden;overflow-y:auto}
+.detail_frame textarea{width:92%;height:270px;font-size:1em;margin:10px 20px;resize:none}
